@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Mukta:wght@600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #c8a2c8;
+  font-family: 'Mukta', sans-serif;
+}
+
+header {
+  width: 960px;
+  height: 140px;
+  margin: 0 auto;
+  font-size: 80px;
+  color: #4d69bd;
+}
+
+textarea {
+  width: 1000px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 25px;
+  background-color: #bd93b4;
+  border: solid 4px #4d69bd;
+  box-shadow: 0 0 20px #4d69bd;
+  overflow: auto;
+  display: block;
+}
+
+.keyboardBody {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1100px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #699489;
+  border: solid 4px #4d69bd;
+  box-shadow: 0 0 20px #4d69bd;
+  padding: 10px 4px 4px 4px;
+}
+
+.keyboardBody div div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  border-radius: 8% 8%;
+  cursor: pointer;
+}
+
+.keyboardBody div div:hover {
+  background-color: orange !important;
+  transition: 0.5s;
+}
+
+.keyboardBody div div:active {
+  color: black;
+  background-color: wheat !important;
+}
+
+.firstDiv {
+  width: 1100px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #699489;
+}
+
+.firstDiv div {
+  width: 60px;
+  height: 60px;
+  background-color: #374b88;
+}
+
+#firstKey0:before {content: '`';}
+#firstKey1:before {content: '1';}
+#firstKey2:before {content: '2';}
+#firstKey3:before {content: '3';}
+#firstKey4:before {content: '4';}
+#firstKey5:before {content: '5';}
+#firstKey6:before {content: '6';}
+#firstKey7:before {content: '7';}
+#firstKey8:before {content: '8';}
+#firstKey9:before {content: '9';}
+#firstKey10:before {content: '0';}
+#firstKey11:before {content: '-';}
+#firstKey12:before {content: '=';}
+#firstKey13:before {content: 'backspace';}
+
+#firstKey13 {
+  width: 100px;
+  background-color: #4d69bd;
+}
+
+.secondDiv {
+  width: 1100px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #699489;
+}
+
+.secondDiv div {
+  width: 60px;
+  height: 60px;
+  background-color: #374b88;
+}
+
+#secondKey0 {
+  background-color: #4d69bd;
+}
+
+#secondKey0:before {
+  content: 'TAB';
+}
+
+#secondKey1:before {content: 'q';}
+#secondKey2:before {content: 'w';}
+#secondKey3:before {content: 'e';}
+#secondKey4:before {content: 'r';}
+#secondKey5:before {content: 't';}
+#secondKey6:before {content: 'y';}
+#secondKey7:before {content: 'u';}
+#secondKey8:before {content: 'i';}
+#secondKey9:before {content: 'o';}
+#secondKey10:before {content: 'p';}
+#secondKey11:before {content: '[';}
+#secondKey12:before {content: ']';}
+#secondKey13:before {content: '\\';}
+#secondKey14:before {content: 'DEL';}
+
+
+#secondKey14 {
+  background-color: #4d69bd;
+}
+
+.thirdDiv {
+  width: 1100px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #699489;
+}
+
+.thirdDiv div {
+  width: 60px;
+  height: 60px;
+  background-color: #374b88;
+}
+
+#thirdKey0 {
+  width: 100px;
+  background-color: #4d69bd;
+}
+
+#thirdKey0:before {content: 'capslock';}
+#thirdKey1:before {content: 'a';}
+#thirdKey2:before {content: 's';}
+#thirdKey3:before {content: 'd';}
+#thirdKey4:before {content: 'f';}
+#thirdKey5:before {content: 'g';}
+#thirdKey6:before {content: 'h';}
+#thirdKey7:before {content: 'j';}
+#thirdKey8:before {content: 'k';}
+#thirdKey9:before {content: 'l';}
+#thirdKey10:before {content: ';';}
+#thirdKey11:before {content: '\'';}
+#thirdKey12:before {content: 'enter';}
+
+
+#thirdKey12 {
+  width: 90px;
+  background-color: #4d69bd;
+}
+
+.fourthDiv {
+  width: 1100px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #699489;
+}
+
+.fourthDiv div {
+  width: 60px;
+  height: 60px;
+  background-color: #374b88;
+}
+
+#fourthKey0 {
+  width: 100px;
+  background-color: #4d69bd;
+}
+
+#fourthKey0:before {content: 'shift';}
+#fourthKey1:before {content: 'z';}
+#fourthKey2:before {content: 'x';}
+#fourthKey3:before {content: 'c';}
+#fourthKey4:before {content: 'v';}
+#fourthKey5:before {content: 'b';}
+#fourthKey6:before {content: 'n';}
+#fourthKey7:before {content: 'm';}
+#fourthKey8:before {content: ',';}
+#fourthKey9:before {content: '.';}
+#fourthKey10:before {content: '/';}
+#fourthKey11:before {content: '↑';}
+#fourthKey12:before {content: 'shift';}
+
+#fourthKey11 {
+  background-color: #4d69bd;
+}
+
+#fourthKey12 {
+  width: 123px;
+  background-color: #4d69bd;
+}
+
+.fifthDiv {
+  width: 1100px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #699489;
+}
+
+.fifthDiv div {
+  width: 60px;
+  height: 60px;
+  background-color: #4d69bd;
+}
+
+#fifthKey0:before {content: 'ctrl';}
+#fifthKey1:before {content: 'win';}
+#fifthKey2:before {content: 'alt';}
+#fifthKey3:before {content: 'space';}
+#fifthKey4:before {content: 'alt';}
+#fifthKey5:before {content: '←';}
+#fifthKey6:before {content: '↓';}
+#fifthKey7:before {content: '→';}
+#fifthKey8:before {content: 'ctrl';}
+
+#fifthKey0 {
+  width: 70px;
+}
+
+#fifthKey3 {
+  width: 520px;
+  border-radius: 10px;
+}
