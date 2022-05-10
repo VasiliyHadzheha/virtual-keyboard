@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/VasiliyHadzheha/virtual-keyboard/issues"
   },
-  "homepage": "https://github.com/VasiliyHadzheha/virtual-keyboard#readme"
+  "homepage": "https://github.com/VasiliyHadzheha/virtual-keyboard#readme",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0"
+  }
 }
